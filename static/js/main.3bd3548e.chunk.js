@@ -9807,46 +9807,33 @@
           , Kd = [{
             label: "Home",
             icon: "HomeIcon",
-            href: "/"
+            href: "https://exchange.stbernard.dog"
         }, {
             label: "Trade",
             icon: "TradeIcon",
             initialOpenState: !0,
             items: [{
                 label: "Exchange",
-                href: "/swap"
+                href: "https://exchange.stbernard.dog/swap"
             }, {
                 label: "Liquidity",
-                href: "/pool"
+                href: "https://exchange.stbernard.dog/pool"
             }]
-        }, {
-            label: "Pools",
-            icon: "PoolIcon",
-            href: "/"
-        }, {
-            label: "Farms",
-            icon: "JungleIcon",
-            href: "/"
         }, {
             label: "Community",
             icon: "ReferralIcon",
-            href: "https://URL_COMMUNITY"
+            href: "https://t.me/StBernardDog",
+            target: "_blank"
         }, {
-            label: "STBD Contract",
+            label: "Contract",
             icon: "PriceGuardIcon",
-            href: "https://bscscan.com/token/0x924958ddd236d7657bf0c86ae7200095bde09b00"
-        }, {
-            label: "Source Code",
-            icon: "ShieldIcon",
-            href: "https://github.com/"
+            href: "https://bscscan.com/token/0x924958ddd236d7657bf0c86ae7200095bde09b00",
+            target: "_blank"
         }, {
             label: "Price Charts",
             icon: "InfoIcon",
-            href: "https://poocoin.app/tokens/0x924958ddd236d7657bf0c86ae7200095bde09b00"
-        }, {
-            label: "LINK ADDED",
-            icon: "ListingIcon",
-            href: "https://URL_DISINI"
+            href: "https://poocoin.app/tokens/0x924958ddd236d7657bf0c86ae7200095bde09b00",
+            target: "_blank"
         }]
           , Qd = function(e) {
             var n = Object(g.c)()
